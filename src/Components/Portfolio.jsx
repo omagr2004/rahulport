@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/Holo-Tech.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Holographic display of digital devices showing connectivity and technology.";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Online Portal Quiz",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Collaborating on a beginner-friendly guide for an online programming language quiz portal, highlighting web development tools and techniques",
+    url: "https://github.com/sourabh1642004/OPQ-with-Django.git",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Opinion Mining For Comment Sentiment Analysis",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Co-developed a Django web app for sentiment analysis, using Bootstrap UI, Chart.js for visualizations, and SQLite. Worked on both ML and front-end to display sentiment results in bar charts.",
+    url: "https://github.com/sourabh1642004/Opinion-Mining-For-Comment-Sentiment-Analysis.git",
   },
   {
-    title: "My Resume Site",
+    title: "AI Music Web App",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Developed a music production app with a Django backend for generating lyrics and a Flutter frontend for user interaction, enabling personalized and iterative music creation.",
+    url: "https://github.com/omagr2004/Ai-Music-Web-App.git",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Blog App",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Developed a beginner-level blog app using React, featuring post creation, editing, and deletion. The app includes a responsive design and integrates seamlessly with APIs.",
+    url: "https://github.com/omagr2004/Blog-App.git",
   },
 ];
 
@@ -64,7 +64,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "100%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>
