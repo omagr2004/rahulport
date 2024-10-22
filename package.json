@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://omagr2004.github.io/rahulport'",
+    "build-gh": "parcel build --public-url /rahulport/",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
